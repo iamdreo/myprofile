@@ -1,0 +1,53 @@
+
+
+.banner-container {
+   
+    flex-direction: row;
+    
+}
+
+
+.banner-text {
+    
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Righteous', cursive;
+   
+}
+.typewrite {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5%;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+ 
+  background-image: linear-gradient(45deg, 
+                    black, black );
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .banner-container {
+   
+    flex-direction: row;
+    margin-top: 180px;
+    
+}
+}
+
