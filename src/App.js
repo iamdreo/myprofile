@@ -43,17 +43,20 @@ class App extends Component {
     return (
       
       <Fragment>
+
          <Helmet>
     <title>Andrew Ole's Portfolio</title>
     <meta name="description" content="Andrew Ole is a full stack developer experienced in React and other technologies obsessed with creating amazing user experiences from front end to backend and giving my users the best possible experience " />
     <link rel="canonical" href="https://andrewole.com.ng" />
   </Helmet>
+
       {loading ?  (
         <CircularProgress style={{margin: 300, marginLeft: '50%', color: 'black'}}  />
       ) : (
       <div>
       
       <Header />
+
      
       <Banner />
      
@@ -68,6 +71,7 @@ class App extends Component {
       
      
       
+
       <Footer />
       
       </div>

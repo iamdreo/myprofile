@@ -4,10 +4,12 @@ import {FaHtml5, FaDatabase, FaMobile, FaRobot, FaDesktop , FaChartLine} from 'r
 
 
 
+
 function Whatido({ id }) {
   return (
     <div id={id}>
     
+
       <h1 className="service-text">Services</h1>
     <div className="service-grid">
     <div className="service">

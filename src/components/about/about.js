@@ -8,6 +8,7 @@ function About({ id }) {
       <h1 className="about-me-text">About me</h1>
     <div className="about-grid">
     <div className="about-text-sec">
+
             <p>I am Andrew Ole, a full stack software engineer obsessed with 
               creating amazing user experiences from front end to backend
               and giving my users the best possible experience.</p>
@@ -15,6 +16,7 @@ function About({ id }) {
             <p>I have a passion for constantly learning, evolving and building cool things with the latest
               technologies. So hit me up and let's grow and build cool things together.
             </p>
+
       </div>
 
   <div className="experience-section">
